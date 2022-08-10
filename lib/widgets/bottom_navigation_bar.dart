@@ -2,14 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_app/utils/colors/colors.dart';
 import 'package:flutter_chat_app/widgets/glowing_action_button.dart';
-
 import 'navigation_bar_item.dart';
 
 class BottomNavigatorBar extends StatefulWidget {
   final ValueChanged<int> onItemSelected;
   const BottomNavigatorBar({Key? key,
     required this.onItemSelected}) : super(key: key);
-
   @override
   State<BottomNavigatorBar> createState() => _BottomNavigatorBarState();
 }
