@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_chat_app/utils/theme/theme.dart';
+import 'package:flutter_chat_app/views/homepage.dart';
 import 'package:flutter_chat_app/views/signup_page.dart';
+import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import 'firebase_options.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.light(),
       themeMode: ThemeMode.dark,
       darkTheme: AppTheme.dark(),
-      home: const SignUpPage(),
+      home: const HomePage(),
     );
   }
 }
