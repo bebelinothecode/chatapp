@@ -15,7 +15,7 @@ class IconBackground extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Material(
         color: Theme.of(context).cardColor,
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(18),
         child: InkWell(
           borderRadius: BorderRadius.circular(6),
           splashColor: AppColors.secondary,
@@ -24,7 +24,7 @@ class IconBackground extends StatelessWidget {
               padding: const EdgeInsets.all(6),
             child: Icon(
               icon,
-              size: 22,
+              size: 20,
             ),
           ),
         ),
