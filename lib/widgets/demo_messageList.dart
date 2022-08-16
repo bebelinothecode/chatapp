@@ -16,7 +16,14 @@ class DemoMessageList extends StatelessWidget {
             message: "Bebelino is a very good rich man",
             messageDate: Jiffy().format("MMM do yy"),
         ),
-        MessageOwn(message: "So what fjbvfubvjvifjbvfjobnvfjnvjofnj?", messageDate: Jiffy().format("MMM do yy")),
+        MessageOwn(
+            message: "So what fjbvfubvjvifjbvfjobnvfjnvjofnj?",
+            messageDate: Jiffy().format("MMM do yy"),
+        ),
+        MessageOwnTile(
+          message: "Bebelino is a very good rich man",
+          messageDate: Jiffy().format("MMM do yy"),
+        ),
       ],
     );
   }

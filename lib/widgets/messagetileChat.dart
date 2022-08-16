@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import '../utils/colors/colors.dart';
 
 class MessageOwn extends StatelessWidget {
@@ -18,9 +17,9 @@ class MessageOwn extends StatelessWidget {
       child: Align(
         alignment: Alignment.bottomRight,
         child: Column(
-          // mainAxisSize: MainAxisSize.min,
-          mainAxisAlignment: MainAxisAlignment.end,
-          // crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          // mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
             Container(
               decoration: const BoxDecoration(
@@ -36,7 +35,8 @@ class MessageOwn extends StatelessWidget {
                 child: Text(message),
               ),
             ),
-            Padding(padding: const EdgeInsets.only(top: 8.0),
+            Align(
+              alignment: Alignment.topRight                                                    ,
               child: Text(messageDate,
                 style: const TextStyle(fontSize: 10),
               ),
